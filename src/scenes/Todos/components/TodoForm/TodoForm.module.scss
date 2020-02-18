@@ -1,0 +1,18 @@
+.FormRow {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ConfirmRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  //margin-top: 10px;
+
+  .ConfirmButton {
+    margin-top: 10px;
+    font-size: 16px;
+    height: 40px;
+    width: 120px;
+  }
+}

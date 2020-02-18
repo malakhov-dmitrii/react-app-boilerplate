@@ -1,0 +1,42 @@
+stages:
+- install
+- build
+- publish
+
+image: node:13
+
+install:all:
+  only:
+    - /^release\/.*$/
+  stage: install
+  script:
+  - yarn global add node-gyp
+  - yarn install
+  artifacts:
+    paths:
+    - node_modules/
+
+build:all:
+  only:
+    - /^release\/.*$/
+  stage: build
+  script:
+  - NODE_ENV=production yarn build
+  artifacts:
+    paths:
+    - build/
+
+publish:test:
+  only:
+    - /^release\/test$/
+  stage: publish
+  script:
+    - echo "$NPMRC_CONTENT" > ~/.npmrc
+    - cp package.json ./build && cd ./build
+    - sed -i '4d' package.json
+    - sed -i '/\"dependencies\"/,/}/ d; /^$/d' package.json
+    - sed -i '/\"devDependencies\"/,/}/ d; /^$/d' package.json
+    - >
+      yarn publish 2>&1 | tee publish.log ||
+      grep -q 'this package is already present' publish.log ||
+      exit 1

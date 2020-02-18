@@ -1,0 +1,15 @@
+.Menu {
+  border: none;
+  .MenuItem {
+    width: 208px;
+
+    .Link {
+      display: flex;
+      align-items: center;
+
+      .Icon {
+        margin-right: 10px;
+      }
+    }
+  }
+}

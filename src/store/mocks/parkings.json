@@ -1,0 +1,41 @@
+{
+    "reservations": [
+        {
+            "id": 1392062,
+            "sum": 125333,
+            "zoneNumber": "0301",
+            "accountId": 123105,
+            "start": 1580469708811,
+            "end": 1580514828811,
+            "vrp": "E777KX777",
+            "vehicleType": "car",
+            "vrpFormat": "local",
+            "transactionId": 2693156,
+            "renewable": true,
+            "updatable": true,
+            "cancelled": false,
+            "cancelDate": null,
+            "renewed": false,
+            "remainingTime": 42323700
+        },
+        {
+            "id": 1392068,
+            "sum": 50580,
+            "zoneNumber": "106",
+            "accountId": 123105,
+            "start": 1580472504521,
+            "end": 1580752164521,
+            "vrp": "M247BA71",
+            "vehicleType": "car",
+            "vrpFormat": "local",
+            "transactionId": 2693169,
+            "renewable": true,
+            "updatable": true,
+            "cancelled": false,
+            "cancelDate": null,
+            "renewed": false,
+            "remainingTime": 279659410
+        }
+    ],
+    "total": 2
+}

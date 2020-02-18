@@ -1,0 +1,33 @@
+.Header {
+  width: 100%;
+  background-color: #fff;
+  height: 64px;
+
+  .HeaderContent {
+    max-width: 1136px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.NavRow {
+  display: flex;
+  align-items: center;
+  margin-left: 24px;
+}
+
+.Flex {
+  display: flex;
+  align-items: center;
+}
+
+.Link {
+  margin: 0 24px;
+  color: rgba(68, 68, 68, 0.65);
+}
+
+.ActiveLink {
+  color: rgba(68, 68, 68, 1);
+}

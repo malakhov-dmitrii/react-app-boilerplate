@@ -1,0 +1,26 @@
+@import "src/shared/styles/variables";
+
+.Sidebar {
+  display: flex;
+  flex-direction: column;
+  min-height: 550px;
+  margin-top: 10px;
+
+  border-right: 1px solid #E8E8E8;
+
+  :global {
+    .ant-menu-item-selected {
+      color: rgba(0, 0, 0, 0.65);
+      border-right: 2px solid $green;
+    }
+
+    .ant-menu-vertical .ant-menu-item:not(:last-child) {
+      margin: 0;
+    }
+
+    .ant-menu-item {
+      padding: 0 26px;
+      margin: 0;
+    }
+  }
+}

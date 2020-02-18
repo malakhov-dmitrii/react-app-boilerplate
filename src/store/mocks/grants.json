@@ -1,0 +1,34 @@
+{
+    "grants": [
+        {
+            "id": 12023,
+            "benefitId": 134,
+            "start": 1580504400000,
+            "end": 1583096399999,
+            "deleteDate": null,
+            "createDate": 1580469587908,
+            "benefitName": "Абонемент на 1 месяц и 1 день",
+            "benefitActive": true,
+            "target": "abonements",
+            "vrp": "E777KX777",
+            "zoneNumbers": [
+                "102"
+            ],
+            "accountId": 123105,
+            "used": null,
+            "suspended": false,
+            "abonement": {
+                "_id": 101,
+                "price": 10100,
+                "intervalType": "duration",
+                "duration": {
+                    "days": 1,
+                    "months": 1
+                },
+                "startType": "fromToday",
+                "benefitId": 134
+            }
+        }
+    ],
+    "total": 1
+}

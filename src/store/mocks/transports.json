@@ -1,0 +1,24 @@
+{
+  "reservations": [
+    {
+      "id": 1392062,
+      "vrp": "A111YX77",
+      "sts": "12 AA 345678",
+      "description": "РСД 18384",
+      "vehicleType": "car"
+    },
+    {
+      "id": 1392063,
+      "vrp": "A222YX88",
+      "sts": "13 AA 345679"
+    },
+    {
+      "id": 1392064,
+      "vrp": "A333YX99",
+      "sts": "14 AA 345680",
+      "description": "Д 1837",
+      "vehicleType": "truck"
+    }
+  ],
+  "total": 3
+}

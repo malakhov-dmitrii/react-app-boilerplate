@@ -1,0 +1,30 @@
+.Balance {
+  margin: 6px 0 24px 25px;
+
+  .BalanceTitle {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.45);
+    line-height: 22px;
+    margin-bottom: 8px;
+  }
+
+  .BalanceAmount {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+
+  .RubleSign {
+    margin-left: 10px;
+  }
+
+  .Button {
+    display: flex;
+    align-items: center;
+    width: 125px;
+
+    .ButtonIcon {
+      margin-right: 8px;
+    }
+  }
+}
+

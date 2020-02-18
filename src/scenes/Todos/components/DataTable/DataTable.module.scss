@@ -1,0 +1,23 @@
+.DataTable {
+  margin-top: 30px;
+}
+
+.StopButton {
+  padding: 0 8px;
+  margin: 0 5px;
+  color: #FF714A;
+  height: 22px;
+}
+
+.ProlongateButton {
+  padding: 0 8px;
+  margin: 0 5px;
+  height: 22px;
+}
+
+.ButtonRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 190px;
+}
