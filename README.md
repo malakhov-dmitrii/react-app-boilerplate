@@ -1,7 +1,6 @@
 # Boilerplate React APP
 
 <a href="https://codeclimate.com/github/Hennessy811/react-app-boilerplate/maintainability"><img src="https://api.codeclimate.com/v1/badges/c43b0fe0a9547c15065a/maintainability" /></a>
-
 <a id="status-image-popup" title="Latest push build on default branch: " name="status-images" class="pointer open-popup">
           <img src="https://travis-ci.org/Hennessy811/react-app-boilerplate.svg?branch=master" alt="build:">
         </a>
